@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LenaLearning", "LenaLearning\LenaLearning.csproj", "{EDF135DC-2BE1-449F-BD4F-C9B561C20375}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunApp", "RunApp\RunApp.csproj", "{23D28581-4845-46F8-A0B1-CC8805D25F01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LenaLearningAPI", "LenaLearningAPI\LenaLearningAPI.csproj", "{4014065D-5535-416C-B4C4-6EE2D2D0EB5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDF135DC-2BE1-449F-BD4F-C9B561C20375}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDF135DC-2BE1-449F-BD4F-C9B561C20375}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDF135DC-2BE1-449F-BD4F-C9B561C20375}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDF135DC-2BE1-449F-BD4F-C9B561C20375}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23D28581-4845-46F8-A0B1-CC8805D25F01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23D28581-4845-46F8-A0B1-CC8805D25F01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23D28581-4845-46F8-A0B1-CC8805D25F01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23D28581-4845-46F8-A0B1-CC8805D25F01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4014065D-5535-416C-B4C4-6EE2D2D0EB5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4014065D-5535-416C-B4C4-6EE2D2D0EB5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4014065D-5535-416C-B4C4-6EE2D2D0EB5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4014065D-5535-416C-B4C4-6EE2D2D0EB5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
