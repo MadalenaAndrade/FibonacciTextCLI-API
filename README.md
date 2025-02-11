@@ -4,31 +4,31 @@
 It provides tools for **Fibonacci calculations** and **text processing**, structured into three main components:
 
 - **LenaLearning (Class Library):** Contains the core logic, including Fibonacci sequence calculations and text manipulation methods.
-- **RunApp (Console Application):** A console-based menu system that allows user interactions with the class library functionalities.
 - **LenaLearningApi (ASP.NET Core Web API):** Exposes the class library functionalities as a RESTful web API for external integration, allowing to interact with the Fibonacci and text processing operations via HTTP requests.
+- **RunApp (Console Application):** A console-based menu system that allows user interactions with the class library functionalities.
 
 ## 🖥️ Development Environment
 This project was developed using **Visual Studio 2022** as the IDE, along with **.NET 8.0** and **ASP.NET Core** for building the backend logic and API. 
 
 ## 📂 Main Project Structures
-- [`LenaLearning/`]() -> Class Library (Core logic) 
-    - [`Fibonacci.cs`]() -> Fibonacci calculations methods
-    - [`MyException`]() -> Custom exception handling
-    - [`WordProcessor.cs`]() -> Text processing methods
-- [`LenaLearningApi/`]() -> API (Web Interface) 
-    - [`Controllers/`]() 
-        - [`FibonacciController.cs`]() -> Endpoints for Fibonacci operations
-        - [`WordProcessorController.cs`]() -> Endpoints for text processing 
-    - [`Models/`]()
-        - [`FibonacciModel`]() -> Contains models for Fibonacci-related responses
-        - [`WordProcessorModel`]() -> Contains models for text processing results
-    - [`Program.cs`]() -> API configuration
-- [`RuaApp`]() -> Console App (CLI Interface) 
-    - [`Menus/`]() 
-        - [`AppMainMenu.cs`]() -> Main interactive menu  
-        - [`FibonacciMenu.cs`]() -> Fibonacci calculator menu
-        - [`WordProcessorMenu.cs`]() -> Text processor menu
-    - [`Program.cs`]() -> Console app entry point
+- [`LenaLearning/`](https://github.com/MadalenaAndrade/FibonacciTextCLI-API/tree/main/LenaLearning) -> Class Library (Core logic) 
+    - [`Fibonacci.cs`](https://github.com/MadalenaAndrade/FibonacciTextCLI-API/blob/main/LenaLearning/Fibonacci.cs) -> Fibonacci calculations methods
+    - [`MyException`](https://github.com/MadalenaAndrade/FibonacciTextCLI-API/blob/main/LenaLearning/MyException.cs) -> Custom exception handling
+    - [`WordProcessor.cs`](https://github.com/MadalenaAndrade/FibonacciTextCLI-API/blob/main/LenaLearning/WordProcessor.cs) -> Text processing methods
+- [`LenaLearningApi/`](https://github.com/MadalenaAndrade/FibonacciTextCLI-API/tree/main/LenaLearningAPI) -> API (Web Interface) 
+    - [`Controllers/`](https://github.com/MadalenaAndrade/FibonacciTextCLI-API/tree/main/LenaLearningAPI/Controllers) 
+        - [`FibonacciController.cs`](https://github.com/MadalenaAndrade/FibonacciTextCLI-API/blob/main/LenaLearningAPI/Controllers/FibonacciController.cs) -> Endpoints for Fibonacci operations
+        - [`WordProcessorController.cs`](https://github.com/MadalenaAndrade/FibonacciTextCLI-API/blob/main/LenaLearningAPI/Controllers/WordProcessorController.cs) -> Endpoints for text processing 
+    - [`Models/`](https://github.com/MadalenaAndrade/FibonacciTextCLI-API/tree/main/LenaLearningAPI/Models)
+        - [`FibonacciModel`](https://github.com/MadalenaAndrade/FibonacciTextCLI-API/blob/main/LenaLearningAPI/Models/FibonacciModel.cs) -> Contains models for Fibonacci-related responses
+        - [`WordProcessorModel`](https://github.com/MadalenaAndrade/FibonacciTextCLI-API/blob/main/LenaLearningAPI/Models/WordProcessorModel.cs) -> Contains models for text processing results
+    - [`Program.cs`](https://github.com/MadalenaAndrade/FibonacciTextCLI-API/blob/main/LenaLearningAPI/Program.cs) -> API configuration
+- [`RunApp`](https://github.com/MadalenaAndrade/FibonacciTextCLI-API/tree/main/RunApp) -> Console App (CLI Interface) 
+    - [`Menus/`](https://github.com/MadalenaAndrade/FibonacciTextCLI-API/tree/main/RunApp/Menus) 
+        - [`AppMainMenu.cs`](https://github.com/MadalenaAndrade/FibonacciTextCLI-API/blob/main/RunApp/Menus/AppMainMenu.cs) -> Main interactive menu  
+        - [`FibonacciMenu.cs`](https://github.com/MadalenaAndrade/FibonacciTextCLI-API/blob/main/RunApp/Menus/FibonacciMenu.cs) -> Fibonacci calculator menu
+        - [`WordProcessorMenu.cs`](https://github.com/MadalenaAndrade/FibonacciTextCLI-API/blob/main/RunApp/Menus/WordProcessorMenu.cs) -> Text processor menu
+    - [`Program.cs`](https://github.com/MadalenaAndrade/FibonacciTextCLI-API/blob/main/RunApp/Program.cs) -> Console app entry point
 
 
 
@@ -47,7 +47,7 @@ This project was developed using **Visual Studio 2022** as the IDE, along with *
 - Retrieve **characters and words by position** (1-starting index).
 - Retrieve **the nth word** from the text.
 
-##### **Note**: The **RunApp**(CLI) and **LenaLearningApi**(Web API) are separate appplications and must be run independently.
+##### **Note**: The **LenaLearningApi**(Web API) and **RunApp**(CLI) are separate appplications and must be run independently.
 
 ## 📌 What I Learned
 This project was my **first real experience coding in C#**, beyond just knowing basic syntax. I built it as a **hands-on way to learn and improve in**:
